@@ -1,0 +1,37 @@
+{
+  "id": "toolful-choice",
+  "title": "Toolful Choice - Tool Ability Selector",
+  "description": "Lets players choose which ability score to use when rolling a tool check. All proficiencies and bonuses are preserved. Compatible with MidiQOL and Argon Combat HUD.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "3.0.0",
+          "verified": "3.0.0"
+        }
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "MiraKomadori"
+    }
+  ],
+  "esmodules": [
+    "scripts/toolful-choice.mjs"
+  ],
+  "styles": [
+    "styles/toolful-choice.css"
+  ],
+  "url": "https://github.com/MiraKomadori/toolful-choice",
+  "manifest": "https://github.com/MiraKomadori/toolful-choice/releases/latest/download/module.json",
+  "download": "https://github.com/MiraKomadori/toolful-choice/releases/latest/download/toolful-choice.zip",
+  "flags": {}
+}

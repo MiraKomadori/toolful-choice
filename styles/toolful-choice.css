@@ -1,0 +1,26 @@
+.toolful-prompt {
+  text-align: center;
+  margin-bottom: 0.1rem;
+  font-size: 1rem;
+}
+
+.toolful-hint {
+  text-align: center;
+  font-size: 0.75rem;
+  color: var(--color-text-dark-secondary, #666);
+  margin-bottom: 0.25rem;
+  font-style: italic;
+}
+
+/* Make the native button footer a 3-column grid */
+.toolful-choice-dialog footer.form-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.5rem;
+}
+
+/* Cancel button: 7th child, center it in column 2 with spacing above */
+.toolful-choice-dialog footer.form-footer button:nth-child(7) {
+  grid-column: 2;
+  margin-top: 0.5rem;
+}
